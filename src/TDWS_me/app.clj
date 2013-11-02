@@ -41,4 +41,4 @@
 (def app (compojure.handler/site app*))
 
 (defn -main [& args]
-  (jetty/run-jetty #'app {:port 8080 :join? false}))
+  (jetty/run-jetty #'app {:port 8081 :join? false}))
