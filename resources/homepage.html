@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL Shortener</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1>Link Shortener!</h1>
+			</div>
+			<div class="col-md-6 col-md-offset-3">
+				<form method="POST" action="/shorten" role="form" class="form-inline">
+					<div class="col-xs-9">
+						<label class="sr-only" for="long-url">Long URL: </label>
+						<input type="text" id="long-url" name="long-url" placeholder="http://putyourlongurlheretogetashortone/" class="form-control input-lg"/>
+					</div>
+					<button type="submit" class="btn btn-lg btn-primary">Shorten!</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
