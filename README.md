@@ -9,4 +9,4 @@ A ring / compojure implementation of a url shortener.
 
 ## License
 
-Copyright © 2013 (http://mikegeorge.org)[Mike George]
+Copyright © 2013 (Tall Duck Web Services)[http://www.tallduck.com/]
