@@ -12,9 +12,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<h1>Link Shortener!</h1>
+				<h1>TDWS Link Shortener!</h1>
 			</div>
 			<div class="col-md-6 col-md-offset-3">
+				<div style="display:none" class="alert alert-danger">Woah There! You have to enter a URL to shorten!</div>
 				<form method="POST" action="/shorten" role="form" class="form-inline">
 					<div class="col-xs-9">
 						<label class="sr-only" for="long-url">Long URL: </label>
@@ -22,6 +23,10 @@
 					</div>
 					<button type="submit" class="btn btn-lg btn-primary">Shorten!</button>
 				</form>
+			</div>
+			<div class="col-md-12 text-center footer">
+				A simple free link shortener created by <a href="http://www.tallduck.com/" title="Affordable Web Development and Design">Tall Duck Web Services</a> | &copy; 2013. All Rights Reserved.<br />
+				Created with Clojure and ClojureScript! | Checkout the source code <a href="http://github.com/tallduck/tdws.me" title="TDWS.me on Github">on Github</a>
 			</div>
 		</div>
 	</div>
